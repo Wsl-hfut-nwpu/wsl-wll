@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="55dp"
+        android:textColor="#8B8682"
+        android:textSize="20dp"
+        android:text="病例研讨" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+    <ListView
+        android:divider="@color/text_blue"
+        android:dividerHeight="1px"
+        android:id="@+id/listview_yingxiang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

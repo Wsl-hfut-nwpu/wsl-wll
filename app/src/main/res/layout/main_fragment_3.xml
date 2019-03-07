@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <!--ListView里面的2个属性可以调整item分割线的宽度和颜色-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="200dp"
+                android:gravity="center|right"
+                android:layout_height="match_parent"
+                android:textColor="#8B8682"
+                android:textSize="18dp"
+                android:text="评论区" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/main_fragment_1"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_blue" />
+
+        <ListView
+            android:id="@+id/mainfragment_3_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#EDEDED"
+            android:dividerHeight="20px"></ListView>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="490dp"
+        android:src="@mipmap/plus"
+        android:background="#FFFFFF"/>
+</FrameLayout>

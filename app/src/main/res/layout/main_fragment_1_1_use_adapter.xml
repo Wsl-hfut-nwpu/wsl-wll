@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/main_fragment_1_1_use_adapter_background"
+    android:orientation="vertical">
+    <WebView
+        android:layout_marginTop="8dp"
+        android:id="@+id/head_phone"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:id="@+id/minyizaixian_name"
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:textColor="#8E8E8E"
+        android:textSize="10sp"
+        android:layout_height="14dp" />
+    <TextView
+        android:id="@+id/minyizaixian_miaoshu"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:textColor="#8E8E8E"
+        android:gravity="center|top"
+        android:textSize="10sp"
+        android:layout_height="14dp" />
+</LinearLayout>

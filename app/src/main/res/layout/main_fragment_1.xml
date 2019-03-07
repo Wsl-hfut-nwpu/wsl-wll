@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <!--先来个帧动画,所以这里创空视图，后台获取到该视图之后动态添加帧动画的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center|right"
+            android:layout_height="match_parent"
+            android:textColor="#8B8682"
+            android:textSize="18dp"
+            android:text="首 页" />
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/main_fragment_1"/>
+    </LinearLayout>
+    <!--下划线设定-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <View
+                android:id="@+id/show_animation_main_fragment_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <!--下划线设定-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dip"
+                android:background="#D9D9D9" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+                <!--下划线设定-->
+                <!--layout_gravity设定相对于父布局位置，而gravity是文字在具体控件上的位置-->
+                <TextView
+                    android:layout_width="7dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="center"
+                    android:background="@color/text_blue" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:textColor="@color/text_blue"
+                    android:text="  名医在线"/>
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <LinearLayout
+                    android:id="@+id/minyizaixian"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </HorizontalScrollView>
+            <!--下划线设定-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dip"
+                android:background="#D9D9D9" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+                <!--下划线设定-->
+                <!--layout_gravity设定相对于父布局位置，而gravity是文字在具体控件上的位置-->
+                <TextView
+                    android:layout_width="7dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="center"
+                    android:background="@color/text_blue" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:textColor="@color/text_blue"
+                    android:text="  案例查看"/>
+            </LinearLayout>
+            <com.example.wanghou.MyListView
+                android:id="@+id/binlizhanxian"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".ForgetPasswordActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_marginTop="3dp"
+                android:layout_width="55dp"
+                android:id="@+id/fanhui_6"
+                android:layout_height="match_parent"
+                android:background="@mipmap/mima_zhaohui"/>
+            <TextView
+                android:layout_width="165dp"
+                android:gravity="center|right"
+                android:layout_height="match_parent"
+                android:textColor="#8B8682"
+                android:textSize="18dp"
+                android:text="评价医生" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_blue" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="180dp"
+                android:gravity="center|right"
+                android:layout_height="match_parent"
+                android:textColor="#8B8682"
+                android:textSize="18dp"
+                android:text="待评价医生姓名:" />
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_width="220dp"
+                android:gravity="center|left"
+                android:id="@+id/doctor_name"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:text="残害平" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="100dp"
+                android:text="医生态度："
+                android:textSize="18dp"
+                android:textColor="@color/text_blue"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <RatingBar
+                android:id="@+id/doctor_attidute"
+                android:layout_width="240dp"
+                android:numStars="5"
+                android:rating="0"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="100dp"
+                android:text="医生水平："
+                android:textSize="18dp"
+                android:textColor="@color/text_blue"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <RatingBar
+                android:id="@+id/doctor_shuiping"
+                android:layout_width="240dp"
+                android:numStars="5"
+                android:rating="0"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/submit_pingfen"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:text="提 交 评 分"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:background="@color/text_blue"
+            android:gravity="center"
+            android:layout_height="45dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

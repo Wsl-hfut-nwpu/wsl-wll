@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <!--先来个帧动画,所以这里创空视图，后台获取到该视图之后动态添加帧动画的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/fanhui_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/mima_zhaohui"/>
+        <TextView
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textColor="#8B8682"
+            android:textSize="18dp"
+            android:text="案例学习" />
+    </LinearLayout>
+    <!--下划线设定-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:background="@mipmap/quickly"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/line_7"
+            android:layout_width="70dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_blue"
+            android:gravity="left|center"
+            android:layout_marginLeft="8dp"
+            android:text="含沙射影" />
+        <TextView
+            android:id="@+id/riqi_1"
+            android:layout_width="180dp"
+            android:textSize="12sp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textStyle="bold"
+            android:gravity="center|right"
+            android:layout_marginLeft="8dp"
+            android:text="2018/05/26 14.39" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#D9D9D9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_blue"
+            android:gravity="left|center"
+            android:layout_marginLeft="8dp"
+            android:text="【影像诊断】" />
+        <TextView
+            android:id="@+id/zhengduan_neirong_1"
+            android:layout_width="200dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:textColor="#999999"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="内容" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_blue"
+            android:gravity="left|center"
+            android:layout_marginLeft="8dp"
+            android:text="【影像来源】" />
+        <ImageView
+            android:id="@+id/zhengduan_picture_1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_blue"
+            android:gravity="left|center"
+            android:layout_marginLeft="8dp"
+            android:text="【案例分析】" />
+        <TextView
+            android:id="@+id/anli_fenxi_1"
+            android:layout_width="200dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:textColor="#999999"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="内容" />
+    </LinearLayout>
+</LinearLayout>

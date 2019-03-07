@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/fanhui_8"
+                android:layout_marginTop="3dp"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/mima_zhaohui"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center|left"
+                android:layout_height="match_parent"
+                android:textColor="#8B8682"
+                android:textSize="18dp"
+                android:text="用户注册" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_blue" />
+        <EditText
+            android:id="@+id/RegisterInput_phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:hint="Phone" />
+
+
+        <EditText
+            android:id="@+id/RegisterInput_yanzhengname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Identifying Code"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/RegisterInput_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Name" />
+        <EditText
+            android:id="@+id/RegisterInput_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:inputType="numberPassword" />
+        <TextView
+            android:id="@+id/RegisterGet_yanzhengpasword"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_blue"
+            android:text="获取验证码" />
+        <TextView
+            android:id="@+id/RegisterSubmit"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/text_blue"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="提      交"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

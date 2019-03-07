@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment_3_Submit_AnLi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/fanhui_3"
+                android:layout_marginTop="3dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/mima_zhaohui"/>
+            <TextView
+                android:layout_width="170dp"
+                android:gravity="center|right"
+                android:layout_height="55dp"
+                android:textColor="#8B8682"
+                android:textSize="20dp"
+                android:text="发布案例" />
+            <TextView
+                android:id="@+id/fabu_anli"
+                android:layout_width="100dp"
+                android:gravity="center|right"
+                android:layout_height="50dp"
+                android:textColor="@color/text_blue"
+                android:textSize="15dp"
+                android:text="发布" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mainAll_text_gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/doctor_main_fragment_3_bg"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:text="问题描述：" />
+                <EditText
+                    android:id="@+id/question_describe"
+                    android:layout_width="250dp"
+                    android:hint="     问题"
+                    android:textColorHint="@color/colorAccent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_blue" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:text="医院解答：" />
+                <EditText
+                    android:id="@+id/jieda_yingxiang"
+                    android:layout_width="250dp"
+                    android:hint="     解答"
+                    android:textColorHint="@color/colorAccent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_blue" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/yingxiang_1_shangchuan"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:text="点击上传" />
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/doctor_main_fragment_3_bg"
+                    android:id="@+id/yingxiang_1_huoqu"
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_blue" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/yingxiang_2_shangchuan"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:text="点击上传" />
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/doctor_main_fragment_3_bg"
+                    android:id="@+id/yingxiang_2_huoqu"
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_blue" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/yingxiang_3_shangchuan"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:text="点击上传" />
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/doctor_main_fragment_3_bg"
+                    android:id="@+id/yingxiang_3_huoqu"
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

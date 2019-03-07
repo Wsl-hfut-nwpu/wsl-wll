@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_width="230dp"
+            android:gravity="center|right"
+            android:layout_height="55dp"
+            android:textColor="#8B8682"
+            android:textSize="20dp"
+            android:text="个人设置" />
+        <ImageView
+            android:id="@+id/mainfragment_5_shezhi"
+            android:layout_width="65dp"
+            android:gravity="center|right"
+            android:layout_marginLeft="60dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/mainfragment_5_shezhi"
+            android:textColor="@color/text_blue"
+            android:textSize="15dp"
+            android:text="查看影像" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:background="@mipmap/main_fragment_3_head"
+            android:layout_marginLeft="30dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/patient_phone"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="70dp"
+            android:textColor="#8B8682"
+            android:textSize="15dp"
+            android:text="18856336193" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainAll_text_gray" />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:background="@mipmap/main_fragment_5_guanzhu"
+        android:layout_height="50dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/mainAll_text_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="left|center"
+            android:layout_width="50dp"
+            android:background="@mipmap/my_reallyname"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/shiming"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="45dp"
+            android:textColor="#8B8682"
+            android:textSize="15dp"
+            android:text="实名认证" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainAll_text_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="left|center"
+            android:layout_width="50dp"
+            android:background="@mipmap/my_answer"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/update_mima"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="45dp"
+            android:textColor="#8B8682"
+            android:textSize="15dp"
+            android:text="修改密码" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainAll_text_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="left|center"
+            android:layout_width="50dp"
+            android:background="@mipmap/my_tiezhi"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/pingjia"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="45dp"
+            android:textColor="#8B8682"
+            android:textSize="15dp"
+            android:text="评价医生" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainAll_text_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="left|center"
+            android:layout_width="50dp"
+            android:background="@mipmap/my_xiugai"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/suggest_fan"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="45dp"
+            android:textColor="#8B8682"
+            android:textSize="15dp"
+            android:text="意见反馈" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainAll_text_gray" />
+        <TextView
+            android:background="@color/text_blue"
+            android:id="@+id/tuichu"
+            android:layout_width="320dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_height="45dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:text="退 出 登 录" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_blue"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="医生姓名：" />
+        <TextView
+            android:id="@+id/text_name"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_blue"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="医生描述：" />
+
+        <TextView
+            android:id="@+id/text_describe"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/chakan_pingfen"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center|right"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@color/text_blue"
+        android:text="查看评分" />
+</LinearLayout>

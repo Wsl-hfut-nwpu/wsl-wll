@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="300dp"
+               android:orientation="horizontal"
+               android:layout_weight="1"
+               android:layout_height="40dp">
+               <TextView
+                   android:layout_width="100dp"
+                   android:text="类型编号:"
+                   android:gravity="center"
+                   android:textColor="@color/text_blue"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:id="@+id/text_hao"
+                   android:gravity="center"
+                   android:textColor="@color/text_blue"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_weight="1"
+               android:layout_width="300dp"
+               android:layout_height="40dp"
+               android:orientation="horizontal">
+            <TextView
+                android:text="检查类型:"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:textColor="@color/text_blue"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/text_cha"
+                android:gravity="center"
+                android:textColor="@color/text_blue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+</LinearLayout>

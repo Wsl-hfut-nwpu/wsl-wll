@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".ForgetPasswordActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="190dp"
+                android:gravity="center|right"
+                android:layout_height="match_parent"
+                android:textColor="#8B8682"
+                android:textSize="15dp"
+                android:text="医生得分" />
+            <TextView
+                android:id="@+id/close_chafen"
+                android:layout_width="80dp"
+                android:gravity="center|right"
+                android:layout_gravity="bottom"
+                android:layout_height="40dp"
+                android:textColor="@color/text_blue"
+                android:textSize="15dp"
+                android:text="关闭" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_blue" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="医生态度"
+                android:textSize="15dp"
+                android:textColor="@color/text_blue"
+                android:gravity="center"
+                android:layout_height="40dp" />
+            <RatingBar
+                android:isIndicator="true"
+                android:id="@+id/doctor_attidute"
+                android:layout_width="wrap_content"
+                android:numStars="5"
+                android:layout_gravity="center"
+                android:rating="0"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="医生水平"
+                android:textSize="15dp"
+                android:textColor="@color/text_blue"
+                android:gravity="center"
+                android:layout_height="40dp" />
+            <RatingBar
+                android:isIndicator="true"
+                android:id="@+id/doctor_shuiping"
+                android:layout_width="wrap_content"
+                android:numStars="5"
+                android:layout_gravity="center"
+                android:rating="0"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

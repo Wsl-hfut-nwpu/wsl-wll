@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="55dp"
+        android:textColor="#8B8682"
+        android:textSize="20dp"
+        android:text="影像查看" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="编号"
+        android:background="@color/topb"
+        android:textColor="@color/colorAccent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#D1D1D1"
+        android:textColor="@color/colorAccent"
+        android:text="病人姓名"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/topb"
+        android:textColor="@color/colorAccent"
+        android:text="预约医生"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#D1D1D1"
+        android:textColor="@color/colorAccent"
+        android:text="诊断科室"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/topb"
+        android:textColor="@color/colorAccent"
+        android:text="诊断医生"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#D1D1D1"
+        android:textColor="@color/colorAccent"
+        android:text="送检"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/topb"
+        android:textColor="@color/colorAccent"
+        android:text="检查项目"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#D1D1D1"
+        android:textColor="@color/colorAccent"
+        android:text="检查结果"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/topb"
+        android:textColor="@color/colorAccent"
+        android:text="复核"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#D1D1D1"
+        android:textColor="@color/colorAccent"
+        android:text="图像"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+
+    <ListView
+        android:divider="@color/text_blue"
+        android:dividerHeight="1px"
+        android:id="@+id/listview_yingxiang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>

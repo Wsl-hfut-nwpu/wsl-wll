@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--框架布局是最简单的布局形式。所有添加到这个布局中的视图都以层叠的方式显示。
+第一个添加的控件被放在最底层，最后一个添加到框架布局中的视图显示在最顶层，上一层的控件会覆盖下一层的控件。
+这种显示方式有些类似于堆栈。-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </ImageSwitcher>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/point_fell_button"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:background="@color/text_blue"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="进入体验" />
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/point_fell_button"
+            android:layout_marginBottom="60dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

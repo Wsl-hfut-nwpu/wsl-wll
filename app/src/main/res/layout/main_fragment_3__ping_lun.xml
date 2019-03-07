@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment_3_PingLun"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/fanhui_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/mima_zhaohui"/>
+        <TextView
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_height="49dp"
+            android:textColor="#8B8682"
+            android:textSize="18dp"
+            android:text="欢迎评论" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_blue" />
+    <ScrollView
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="336dp"
+        android:layout_height="510dp">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginRight="15dp"
+        android:background="#D9D9D9" />
+    <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="336dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+             android:layout_width="45dp"
+             android:layout_height="match_parent"
+             android:background="@mipmap/main_frsgment_3_pinglun"/>
+
+        <EditText
+            android:id="@+id/neirong"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:hint="说点什么吧" />
+        <Button
+            android:id="@+id/submit_neirong"
+            android:layout_width="60dp"
+            android:textColor="@color/text_blue"
+            android:layout_height="30dp"
+            android:text="发送" />
+
+    </LinearLayout>
+</LinearLayout>

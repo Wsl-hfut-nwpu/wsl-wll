@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="page_indicator_unfocused">#111111</color>
+    <color name="page_indicator_focused">#000000</color>
+    <color name="mainAll_text_yellow">#EEEE00</color>
+    <color name="mainAll_text_gray">#EAEAEA</color>
+    <!--color name="text_blue">#43CD80</color-->
+    <color name="text_blue">#66CDAA</color>
+    <color name="topd">#F08080</color>
+    <color name="topb">#EAEAEA</color>
+</resources>
